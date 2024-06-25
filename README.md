@@ -1,14 +1,17 @@
 # axis_bulkImporter
 Convert UI json objects to Bulk-Import templates
+Currently only supports network ranges.
 
 ## Use Cases
+Example - Migrating applications from one tenant to another
+
 * Use this tool to create bulk import csv files for import to the Axis portal.  
 Source data by default is the Applications json data file taken from the UI via browser debug tools
 
 * This tool can be imported to any other python script/tool to parse source data
 into the correct schema necessary for bulk import.
 
-**Example ** - Migrating applications from one tenant to another
+
 
 ## Requirements:
-* Source data in json format.  
+* Source data in json format.  From UI
