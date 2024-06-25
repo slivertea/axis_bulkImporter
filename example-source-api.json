@@ -1,0 +1,1659 @@
+{
+	"pageNumber": 1,
+	"pageSize": 100,
+	"firstPage": "http://admin-api.axissecurity.com/api/v1.0/applications?pageNumber=1&pageSize=100",
+	"lastPage": "http://admin-api.axissecurity.com/api/v1.0/applications?pageNumber=1&pageSize=100",
+	"totalPages": 1,
+	"totalRecords": 58,
+	"data": [
+		{
+			"type": "Saas",
+			"enabled": true,
+			"connectorZoneId": "d2031599-31d9-4f75-9753-20929d0cf6a1",
+			"tags": [],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "AllTrafficSwgCategorySaasApp",
+			"id": "486c4d06-ec17-4ed2-8f82-5457b9e26663"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "d2031599-31d9-4f75-9753-20929d0cf6a1",
+			"tags": [
+				{
+					"id": "f5d71086-406b-44e4-9660-deb0dab59b2e",
+					"value": "ms 365 all apps"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"outlook.cloud.microsoft",
+					"outlook.office.com",
+					"outlook.office365.com",
+					"outlook.office365.com",
+					"smtp.office365.com",
+					"*.outlook.com",
+					"autodiscover.*.onmicrosoft.com",
+					"*.protection.outlook.com",
+					"*.mail.protection.outlook.com",
+					"*.mx.microsoft"
+				],
+				"ipRangesOrCIDRs": [
+					"13.107.6.152/31",
+					"13.107.18.10/31",
+					"13.107.128.0/22",
+					"23.103.160.0/20",
+					"40.96.0.0/13",
+					"40.104.0.0/15",
+					"52.96.0.0/14",
+					"131.253.33.215/32",
+					"132.245.0.0/16",
+					"150.171.32.0/22",
+					"204.79.197.215/32",
+					"40.92.0.0/15",
+					"40.107.0.0/16",
+					"52.100.0.0/14",
+					"52.238.78.88/32",
+					"104.47.0.0/17"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"80:Tcp",
+					"443:Tcp",
+					"443:Udp",
+					"143:Tcp",
+					"587:Tcp",
+					"993:Tcp",
+					"995:Tcp",
+					"25:Tcp"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "Exchange Online",
+			"id": "a183df4e-514d-4194-a5ce-c296e6c7892e"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "d2031599-31d9-4f75-9753-20929d0cf6a1",
+			"tags": [
+				{
+					"id": "f5d71086-406b-44e4-9660-deb0dab59b2e",
+					"value": "ms 365 all apps"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.microsoftstream.com",
+					"nps.onyx.azure.net",
+					"*.azureedge.net",
+					"*.media.azure.net",
+					"*.streaming.mediaservices.windows.net",
+					"*.keydelivery.mediaservices.windows.net",
+					"*.officeapps.live.com",
+					"*.online.office.com",
+					"office.live.com",
+					"*.office.net",
+					"*.onenote.com",
+					"*.microsoft.com",
+					"*cdn.onenote.net",
+					"ajax.aspnetcdn.com",
+					"apis.live.net",
+					"officeapps.live.com",
+					"www.onedrive.com",
+					"*.auth.microsoft.com",
+					"*.msftidentity.com",
+					"*.msidentity.com",
+					"account.activedirectory.windowsazure.com",
+					"accounts.accesscontrol.windows.net",
+					"adminwebservice.microsoftonline.com",
+					"api.passwordreset.microsoftonline.com",
+					"autologon.microsoftazuread-sso.com",
+					"becws.microsoftonline.com",
+					"ccs.login.microsoftonline.com",
+					"clientconfig.microsoftonline-p.net",
+					"companymanager.microsoftonline.com",
+					"device.login.microsoftonline.com",
+					"graph.microsoft.com",
+					"graph.windows.net",
+					"login-us.microsoftonline.com",
+					"login.microsoft.com",
+					"login.microsoftonline-p.com",
+					"login.microsoftonline.com",
+					"login.windows.net",
+					"logincert.microsoftonline.com",
+					"loginex.microsoftonline.com",
+					"nexus.microsoftonline-p.com",
+					"passwordreset.microsoftonline.com",
+					"provisioningapi.microsoftonline.com",
+					"*.hip.live.com",
+					"*.microsoftonline-p.com",
+					"*.microsoftonline.com",
+					"*.msauth.net",
+					"*.msauthimages.net",
+					"*.msecnd.net",
+					"*.msftauth.net",
+					"*.msftauthimages.net",
+					"*.phonefactor.net",
+					"enterpriseregistration.windows.net",
+					"policykeyservice.dc.ad.msft.net",
+					"*.compliance.microsoft.com",
+					"*.protection.office.com",
+					"*.security.microsoft.com",
+					"compliance.microsoft.com",
+					"defender.microsoft.com",
+					"protection.office.com",
+					"security.microsoft.com",
+					"*.portal.cloudappsecurity.com",
+					"*.blob.core.windows.net",
+					"firstpartyapps.oaspapps.com",
+					"prod.firstpartyapps.oaspapps.com.akadns.net",
+					"telemetryservice.firstpartyapps.oaspapps.com",
+					"wus-firstpartyapps.oaspapps.com",
+					"*.aria.microsoft.com",
+					"*.events.data.microsoft.com",
+					"*.o365weve.com",
+					"amp.azure.net",
+					"appsforoffice.microsoft.com",
+					"assets.onestore.ms",
+					"auth.gfx.ms",
+					"c1.microsoft.com",
+					"dgps.support.microsoft.com",
+					"docs.microsoft.com",
+					"msdn.microsoft.com",
+					"platform.linkedin.com",
+					"prod.msocdn.com",
+					"shellprod.msocdn.com",
+					"support.microsoft.com",
+					"technet.microsoft.com",
+					"*.office365.com",
+					"*.aadrm.com",
+					"*.azurerms.com",
+					"*.informationprotection.azure.com",
+					"ecn.dev.virtualearth.net",
+					"informationprotection.hosting.portal.azure.net",
+					"*.sharepointonline.com",
+					"dc.services.visualstudio.com",
+					"mem.gfx.ms",
+					"staffhub.ms",
+					"*.microsoft.com",
+					"*.msocdn.com",
+					"*.onmicrosoft.com",
+					"o15.officeredir.microsoft.com",
+					"officepreviewredir.microsoft.com",
+					"officeredir.microsoft.com",
+					"r.office.microsoft.com",
+					"activation.sls.microsoft.com",
+					"crl.microsoft.com",
+					"office15client.microsoft.com",
+					"officeclient.microsoft.com",
+					"go.microsoft.com",
+					"ajax.aspnetcdn.com",
+					"cdn.odc.officeapps.live.com",
+					"officecdn.microsoft.com",
+					"officecdn.microsoft.com.edgesuite.net",
+					"otelrules.azureedge.net",
+					"*.virtualearth.net",
+					"c.bing.net",
+					"ocos-office365-s2s.msedge.net",
+					"tse1.mm.bing.net",
+					"www.bing.com",
+					"*.acompli.net",
+					"*.outlookmobile.com",
+					"login.windows-ppe.net",
+					"account.live.com",
+					"login.live.com",
+					"www.acompli.com",
+					"*.appex-rf.msn.com",
+					"*.appex.bing.com",
+					"c.bing.com",
+					"c.live.com",
+					"d.docs.live.net",
+					"docs.live.net",
+					"partnerservices.getmicrosoftkey.com",
+					"signup.live.com",
+					"account.live.com",
+					"auth.gfx.ms",
+					"login.live.com",
+					"*.yammer.com",
+					"*.yammerusercontent.com",
+					"*.assets-yammer.com",
+					"www.outlook.com",
+					"eus-www.sway-cdn.com",
+					"eus-www.sway-extensions.com",
+					"wus-www.sway-cdn.com",
+					"wus-www.sway-extensions.com",
+					"sway.com",
+					"www.sway.com",
+					"*.entrust.net",
+					"*.geotrust.com",
+					"*.omniroot.com",
+					"*.public-trust.com",
+					"*.symcb.com",
+					"*.symcd.com",
+					"*.verisign.com",
+					"*.verisign.net",
+					"apps.identrust.com",
+					"cacerts.digicert.com",
+					"cert.int-x3.letsencrypt.org",
+					"crl.globalsign.com",
+					"crl.globalsign.net",
+					"crl.identrust.com",
+					"crl3.digicert.com",
+					"crl4.digicert.com",
+					"isrg.trustid.ocsp.identrust.com",
+					"mscrl.microsoft.com",
+					"ocsp.digicert.com",
+					"ocsp.globalsign.com",
+					"ocsp.msocsp.com",
+					"ocsp2.globalsign.com",
+					"ocspx.digicert.com",
+					"secure.globalsign.com",
+					"www.digicert.com",
+					"www.microsoft.com",
+					"officespeech.platform.bing.com",
+					"*.office.com",
+					"www.microsoft365.com",
+					"*.microsoftusercontent.com",
+					"*.azure-apim.net",
+					"*.flow.microsoft.com",
+					"*.powerapps.com",
+					"*.powerautomate.com",
+					"*.activity.windows.com",
+					"activity.windows.com",
+					"*.cortana.ai",
+					"admin.microsoft.com",
+					"cdn.odc.officeapps.live.com",
+					"cdn.uci.officeapps.live.com",
+					"*.cloud.microsoft",
+					"*.static.microsoft",
+					"*.usercontent.microsoft",
+					"settings-win.data.microsoft.com"
+				],
+				"ipRangesOrCIDRs": [
+					"13.107.6.171/32",
+					"13.107.18.15/32",
+					"13.107.140.6/32",
+					"52.108.0.0/14",
+					"52.244.37.168/32",
+					"20.20.32.0/19",
+					"20.190.128.0/18",
+					"20.231.128.0/19",
+					"40.126.0.0/18",
+					"13.107.6.192/32",
+					"13.107.9.192/32"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"443:Tcp",
+					"80:Tcp"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "Microsoft 365 Common and Office Online",
+			"id": "fc698875-ca39-4c2b-8845-ec087071469d"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "063554b6-c14e-4f8c-a2ff-fa4145363ab8",
+					"value": "DNS Lookup"
+				},
+				{
+					"id": "7bd72611-cd35-4b85-8c41-f72fcacc9257",
+					"value": "prelogin"
+				},
+				{
+					"id": "81ccb40d-34fe-4653-9dd6-cef9b8365ef5",
+					"value": "Wildcard Applications"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"ad.gnomey.local",
+					"gnomey.local"
+				],
+				"ipRangesOrCIDRs": [
+					"172.16.0.0/12",
+					"10.0.0.0/8",
+					"192.168.0.0/16"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"53:Udp"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native AD GNOMEY SUFFIX",
+			"id": "328ff173-f385-40d4-8e17-3e0ec03a2ef8"
+		},
+		{
+			"type": "ActiveDirectory",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "7bd72611-cd35-4b85-8c41-f72fcacc9257",
+					"value": "prelogin"
+				},
+				{
+					"id": "e2ce5357-980a-41d6-9298-dbc7246ede5c",
+					"value": "Active Directory"
+				}
+			],
+			"name": "native AD - V2 App",
+			"id": "8153fdae-5d09-480c-918e-6c09b5687e25"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "a412889e-8ad1-4f31-adf4-7ac3f5750fad",
+			"tags": [
+				{
+					"id": "326da6cc-5f20-45e1-a29e-1b2698127f15",
+					"value": "Blackhole"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"192.168.0.0/8",
+					"192.168.94.0/24",
+					"1.1.1.1/32",
+					"8.8.8.8/32",
+					"8.8.8.4/32",
+					"169.254.0.0/16",
+					"4.2.2.3/32"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native Blackhole Networks",
+			"id": "4027dd3a-56bf-4d9d-a8a2-12912c244307"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "765f4d2f-6813-4127-b857-2a39da5dec87",
+			"tags": [
+				{
+					"id": "a8855ada-0251-4e2c-a280-a0c7f4a9c628",
+					"value": "Atmos Sinkhole"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*",
+					"*.*"
+				],
+				"ipRangesOrCIDRs": [
+					"0.0.0.0/0"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native Block All",
+			"id": "b41a0d2b-f621-44f0-9eb3-e20a5acfe77d"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "765f4d2f-6813-4127-b857-2a39da5dec87",
+			"tags": [
+				{
+					"id": "a8855ada-0251-4e2c-a280-a0c7f4a9c628",
+					"value": "Atmos Sinkhole"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"0.0.0.0/0"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"22"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native Block SSH",
+			"id": "55420837-a864-4f4f-8b67-148616067351"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "d5eccfbd-9ac7-4f75-a847-6c2063cdb764",
+					"value": "Network Access"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"10.10.10.0/24"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native - Connector Network",
+			"id": "df4df8a9-8ccc-4321-9279-50122ba10ae5"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "75c813ed-6ba5-44f0-a8bd-aa6c0a265c85",
+					"value": "web"
+				},
+				{
+					"id": "7bd72611-cd35-4b85-8c41-f72fcacc9257",
+					"value": "prelogin"
+				},
+				{
+					"id": "8818031c-fbd3-4b3d-b23a-de906d1be964",
+					"value": "Native SaaS"
+				},
+				{
+					"id": "b5250e6c-62ac-4091-b4ac-eb84e5d3fefd",
+					"value": "postureRequiredApp"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"ifconfig.me"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native ifconfig.me",
+			"id": "f8bf4ee7-cbd5-4c51-9d46-4d73a153e94e"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "81ccb40d-34fe-4653-9dd6-cef9b8365ef5",
+					"value": "Wildcard Applications"
+				},
+				{
+					"id": "d5eccfbd-9ac7-4f75-a847-6c2063cdb764",
+					"value": "Network Access"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.local",
+					"*.gnomey.local",
+					"*.lab.gnomey.local",
+					"*.ad.gnomey.local"
+				],
+				"ipRangesOrCIDRs": [
+					"172.16.0.0/12",
+					"10.0.0.0/8",
+					"192.168.0.0/16"
+				],
+				"excludedDnsSearches": [
+					"172.16.2.11/32"
+				],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native Network Access NASA",
+			"id": "1ba9e0bf-0866-4324-b251-3672672452e8"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "81ccb40d-34fe-4653-9dd6-cef9b8365ef5",
+					"value": "Wildcard Applications"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"172.16.66.201/32"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"22"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native NS1 Jump",
+			"id": "40aee18c-c3c0-4e79-8f6d-b63cbb6ebff7"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "0964d0f9-eb70-460a-86c0-c41fb05d5a5f",
+					"value": "Requires Posture"
+				},
+				{
+					"id": "125aed30-bdc1-44c1-8b11-d0fc6da93590",
+					"value": "Okta IP Check"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"myexternalip.com",
+					"ifconfig.me"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native Okta IP Check",
+			"id": "8b14693a-2b0f-437f-a1e2-b74d1f0264a1"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "0964d0f9-eb70-460a-86c0-c41fb05d5a5f",
+					"value": "Requires Posture"
+				},
+				{
+					"id": "a7105f2e-fb42-4a83-955c-1712a3ad1a52",
+					"value": "Okta Login"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.okta.com",
+					"login.slivertea.com"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native Okta Login",
+			"id": "dc40029b-f5af-4962-88f5-c71ff72916ad"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "a7105f2e-fb42-4a83-955c-1712a3ad1a52",
+					"value": "Okta Login"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.okta.com",
+					" login.slivertea.com"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native Okta Redirect - explicit",
+			"id": "3b58a1cc-6f00-4c78-a34e-cf216b273255"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "d2031599-31d9-4f75-9753-20929d0cf6a1",
+			"tags": [
+				{
+					"id": "8818031c-fbd3-4b3d-b23a-de906d1be964",
+					"value": "Native SaaS"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.drive.google.com",
+					"drive.google.com"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SaaS - Google Drive",
+			"id": "12995ada-0d81-4d32-b4a0-69130788bfcd"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "8818031c-fbd3-4b3d-b23a-de906d1be964",
+					"value": "Native SaaS"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.linkedin.com"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"80-443"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SaaS - LinkedIn",
+			"id": "ae9968ae-f728-4f6f-932c-bd93d90c51c7"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "8818031c-fbd3-4b3d-b23a-de906d1be964",
+					"value": "Native SaaS"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.nordvpn.com"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"80-443"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SaaS - NordVPN",
+			"id": "6a492f11-d32a-4539-a04b-7e2f9dabc1ee"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "8818031c-fbd3-4b3d-b23a-de906d1be964",
+					"value": "Native SaaS"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"slack.com"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SaaS - Slack",
+			"id": "334b56f0-8ef0-48a5-97ef-70ea998b3b09"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "8818031c-fbd3-4b3d-b23a-de906d1be964",
+					"value": "Native SaaS"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.webex.com",
+					"webex.com"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SaaS - WebEx",
+			"id": "ba6e56c6-1812-428f-b6eb-0b5281f42841"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "d2031599-31d9-4f75-9753-20929d0cf6a1",
+			"tags": [
+				{
+					"id": "8818031c-fbd3-4b3d-b23a-de906d1be964",
+					"value": "Native SaaS"
+				},
+				{
+					"id": "f61a1b49-fbe8-4e49-a66a-6917b39fa8c6",
+					"value": "Permitted Direct"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"youtube.com",
+					"play.google.com",
+					"*.googleusercontent.com",
+					"www.youtube.com"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"80",
+					"443"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SaaS - Youtube",
+			"id": "549b6472-dcbe-42ea-8373-a7bcbc537375"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "8818031c-fbd3-4b3d-b23a-de906d1be964",
+					"value": "Native SaaS"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*zscaler.com",
+					"ip.zscaler.com"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SaaS - Zscaler",
+			"id": "a93da70d-00b3-4f2d-a1ff-3edf901c69e6"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "2adef5ae-c788-42f0-b252-dd5656392e73",
+			"tags": [],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"192.168.3.0/24"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [
+					"1-65535"
+				],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SIF - Remote Peers 3",
+			"id": "dc4b34d5-175d-40e4-b5d7-7cc1f8275891"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "a412889e-8ad1-4f31-adf4-7ac3f5750fad",
+			"tags": [
+				{
+					"id": "1ce62191-aa7c-4705-9af6-34254b45d7cb",
+					"value": "Voip"
+				},
+				{
+					"id": "ea354f57-c322-4bb4-8a8a-effd9a3a0402",
+					"value": "SIF"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"192.168.4.0/24"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [
+					"1-65535"
+				],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SIF - Remote Peers 4",
+			"id": "039d3c9e-eea8-43d4-bcfe-c8de8ca9977e"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "a412889e-8ad1-4f31-adf4-7ac3f5750fad",
+			"tags": [
+				{
+					"id": "ea354f57-c322-4bb4-8a8a-effd9a3a0402",
+					"value": "SIF"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"192.168.69.0/24"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [
+					"1-65000"
+				],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SIF - Server",
+			"id": "208e11b4-8380-487f-ab04-51a7c41bb93f"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "a412889e-8ad1-4f31-adf4-7ac3f5750fad",
+			"tags": [
+				{
+					"id": "e1afb87f-da48-4214-a0b1-c81afde33efa",
+					"value": "ZTNA Application"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"172.16.2.15/32"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [
+					"1-65000"
+				],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SIF - SMB|SCCM Server",
+			"id": "b1ffe827-2621-4537-a817-fbc003e03b37"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "0964d0f9-eb70-460a-86c0-c41fb05d5a5f",
+					"value": "Requires Posture"
+				},
+				{
+					"id": "f4b80114-51a4-49f2-ad52-1a356a5c8dc7",
+					"value": "SMB"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"win-dfs01a.*",
+					"win-dfs01a.ad.gnomey.local"
+				],
+				"ipRangesOrCIDRs": [
+					"172.16.2.15/32"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SMB win-dfs01a",
+			"id": "e59010fe-daee-4b33-85d3-01e3014e482e"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "b5250e6c-62ac-4091-b4ac-eb84e5d3fefd",
+					"value": "postureRequiredApp"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"192.168.100.2/32"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SRX IP",
+			"id": "a5ba5a05-8389-4d11-9c3c-0e73cbcf5402"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "9c9bafad-b495-4033-bc57-8d9879791455",
+					"value": "ssh"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"172.16.66.200/32",
+					"10.10.10.11/32",
+					"10.10.10.12/32",
+					"10.10.10.16/32",
+					"172.16.0.20/32"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"22:Tcp",
+					"161:Udp"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native SSH | SNMP to Connectors",
+			"id": "36bf047c-655f-4492-a662-cc01e87a0df3"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "d2031599-31d9-4f75-9753-20929d0cf6a1",
+			"tags": [
+				{
+					"id": "d5eccfbd-9ac7-4f75-a847-6c2063cdb764",
+					"value": "Network Access"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"^(news|maps|maps|*account*).*google.com$"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native Wildcard  DNS with Regex",
+			"id": "fbb11c57-aaca-4a24-bd1a-a13f1cfb5e04"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "7bd72611-cd35-4b85-8c41-f72fcacc9257",
+					"value": "prelogin"
+				},
+				{
+					"id": "f015639e-ffd1-4e4c-b858-ed9260401964",
+					"value": "WindowsHosts"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"172.16.2.0/24"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "native Wildcard Windows Hosts",
+			"id": "b4ddcaec-eab8-4e4e-ad79-f8feef09be66"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"172.16.2.11/32",
+					"172.16.2.10/32"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"53:Udp"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "network DNS Lookup",
+			"id": "05f9192d-8778-4609-af85-34a1e5211248"
+		},
+		{
+			"type": "Rdp",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "17895aa5-7c45-47eb-afb5-741d1f8f3852",
+					"value": "CSA Apps"
+				}
+			],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "rdp DC01",
+			"id": "b9c37e68-cb56-4412-bbcb-3381269b8519"
+		},
+		{
+			"type": "Rdp",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "d191dd60-9052-49cf-a77c-674c81bb2e10",
+					"value": "RDP Pool"
+				},
+				{
+					"id": "e1afb87f-da48-4214-a0b1-c81afde33efa",
+					"value": "ZTNA Application"
+				}
+			],
+			"identityProviderId": "3295e082-c09a-411c-b69d-99d35f68e2f5",
+			"name": "rdpPool viguslab rdp servers",
+			"id": "97142239-3d0c-4a65-960e-d02e88de9cb2"
+		},
+		{
+			"type": "Vnc",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "66645983-1cf5-416c-8aa1-f296435b5626",
+					"value": "rdp"
+				},
+				{
+					"id": "e1afb87f-da48-4214-a0b1-c81afde33efa",
+					"value": "ZTNA Application"
+				}
+			],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "rdpVnc win-dfs01a",
+			"id": "63fe08ed-3a6c-4d71-aca1-18a853f9ec12"
+		},
+		{
+			"type": "Rdp",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "66645983-1cf5-416c-8aa1-f296435b5626",
+					"value": "rdp"
+				},
+				{
+					"id": "e1afb87f-da48-4214-a0b1-c81afde33efa",
+					"value": "ZTNA Application"
+				}
+			],
+			"identityProviderId": "3295e082-c09a-411c-b69d-99d35f68e2f5",
+			"name": "rdp win-dc01a",
+			"id": "322ac617-d2e7-4a01-a089-f65ba2e82ee6"
+		},
+		{
+			"type": "Rdp",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "66645983-1cf5-416c-8aa1-f296435b5626",
+					"value": "rdp"
+				},
+				{
+					"id": "e1afb87f-da48-4214-a0b1-c81afde33efa",
+					"value": "ZTNA Application"
+				}
+			],
+			"identityProviderId": "e7b82782-64c2-4967-b300-022bcf3367ae",
+			"name": "rdp win-dc02a",
+			"id": "3b82c6e3-d483-4f01-9504-5aae989ab1f5"
+		},
+		{
+			"type": "Rdp",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "17895aa5-7c45-47eb-afb5-741d1f8f3852",
+					"value": "CSA Apps"
+				}
+			],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "rdp win-host01a",
+			"id": "c6d784e3-5fc9-4c1d-a1bd-38358ea84c35"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "d2031599-31d9-4f75-9753-20929d0cf6a1",
+			"tags": [
+				{
+					"id": "f5d71086-406b-44e4-9660-deb0dab59b2e",
+					"value": "ms 365 all apps"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.sharepoint.com",
+					"ssw.live.com",
+					"storage.live.com",
+					"*.search.production.apac.trafficmanager.net",
+					"*.search.production.emea.trafficmanager.net",
+					"*.search.production.us.trafficmanager.net",
+					"*.wns.windows.com",
+					"admin.onedrive.com",
+					"officeclient.microsoft.com",
+					"g.live.com",
+					"oneclient.sfx.ms",
+					"*.sharepointonline.com",
+					"spoprod-a.akamaihd.net",
+					"*.svc.ms"
+				],
+				"ipRangesOrCIDRs": [
+					"13.107.136.0/22",
+					"40.108.128.0/17",
+					"52.104.0.0/14",
+					"104.146.128.0/17",
+					"150.171.40.0/22"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"80:Tcp",
+					"443:Tcp"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "SharePoint Online and OneDrive for Business",
+			"id": "f533bdf9-718c-4121-b2a4-9a9f37826b12"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": true,
+			"connectorZoneId": "d2031599-31d9-4f75-9753-20929d0cf6a1",
+			"tags": [
+				{
+					"id": "f5d71086-406b-44e4-9660-deb0dab59b2e",
+					"value": "ms 365 all apps"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.lync.com",
+					"*.teams.microsoft.com",
+					"teams.microsoft.com",
+					"*.keydelivery.mediaservices.windows.net",
+					"*.streaming.mediaservices.windows.net",
+					"mlccdn.blob.core.windows.net",
+					"aka.ms",
+					"*.users.storage.live.com",
+					"adl.windows.com",
+					"*.secure.skypeassets.com",
+					"mlccdnprod.azureedge.net",
+					"*.skype.com",
+					"compass-ssl.microsoft.com"
+				],
+				"ipRangesOrCIDRs": [
+					"13.107.64.0/18",
+					"52.112.0.0/14",
+					"52.122.0.0/15",
+					"52.238.119.141/32",
+					"52.244.160.207/32"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"3478:Udp",
+					"3478:Tcp",
+					"3479:Udp",
+					"3479:Tcp",
+					"3480:Udp",
+					"3480:Tcp",
+					"3481:Udp",
+					"3481:Tcp",
+					"80:Tcp",
+					"443:Tcp"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "Skype for Business Online and Microsoft Teams",
+			"id": "f24d439c-dabe-45e9-b21f-98cc8c3caa3d"
+		},
+		{
+			"type": "Database",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "8ddd4571-4aac-4f73-9c88-5b5513761b18",
+					"value": "Database"
+				}
+			],
+			"identityProviderId": "3295e082-c09a-411c-b69d-99d35f68e2f5",
+			"name": "SQL1_1433",
+			"id": "45bf0c9f-e0f6-46fe-8261-2f4cdf6dddc2"
+		},
+		{
+			"type": "Database",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "8ddd4571-4aac-4f73-9c88-5b5513761b18",
+					"value": "Database"
+				}
+			],
+			"identityProviderId": "3295e082-c09a-411c-b69d-99d35f68e2f5",
+			"name": "SQL_1434",
+			"id": "dcf0768d-204c-4037-8ada-2fb286235602"
+		},
+		{
+			"type": "Database",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "327eadc8-32b4-4d0f-9aee-b98ec22584dc",
+					"value": "MS-SQL"
+				},
+				{
+					"id": "e1afb87f-da48-4214-a0b1-c81afde33efa",
+					"value": "ZTNA Application"
+				}
+			],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "sql testdb",
+			"id": "e95cd98b-3e66-4179-ad9b-19a4aff7e91a"
+		},
+		{
+			"type": "Ssh",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "17895aa5-7c45-47eb-afb5-741d1f8f3852",
+					"value": "CSA Apps"
+				},
+				{
+					"id": "9c9bafad-b495-4033-bc57-8d9879791455",
+					"value": "ssh"
+				}
+			],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "ssh CN77 Free Range Router",
+			"id": "e8318f07-6504-49c7-96d9-a8dcca97cb62"
+		},
+		{
+			"type": "SshRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "9c9bafad-b495-4033-bc57-8d9879791455",
+					"value": "ssh"
+				}
+			],
+			"name": "sshRange Appliances",
+			"id": "59bee6e6-ea54-4350-b4df-9ff52a680502"
+		},
+		{
+			"type": "Ssh",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "9c9bafad-b495-4033-bc57-8d9879791455",
+					"value": "ssh"
+				}
+			],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "ssh SRX (agentless)",
+			"id": "09efb93d-5957-4cbf-925b-89f9ddcf8827"
+		},
+		{
+			"type": "Web",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "75c813ed-6ba5-44f0-a8bd-aa6c0a265c85",
+					"value": "web"
+				}
+			],
+			"identityProviderId": "3295e082-c09a-411c-b69d-99d35f68e2f5",
+			"name": "web Aruba VC",
+			"id": "a9cb508c-28a4-40d7-bd6f-930c27fc1eb0"
+		},
+		{
+			"type": "Web",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "17895aa5-7c45-47eb-afb5-741d1f8f3852",
+					"value": "CSA Apps"
+				},
+				{
+					"id": "75c813ed-6ba5-44f0-a8bd-aa6c0a265c85",
+					"value": "web"
+				},
+				{
+					"id": "d4917fb5-b073-47d2-8606-444f464dcb28",
+					"value": "VK tag"
+				}
+			],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "web ESX - CSA Lab",
+			"id": "60b8459d-bc80-46cf-ab4c-525b5bf918c8"
+		},
+		{
+			"type": "Web",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "17895aa5-7c45-47eb-afb5-741d1f8f3852",
+					"value": "CSA Apps"
+				}
+			],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "web NetSIM - GNS3",
+			"id": "3b5d624f-8b81-4ad7-adb2-05cd4acd8f43"
+		},
+		{
+			"type": "Web",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "17895aa5-7c45-47eb-afb5-741d1f8f3852",
+					"value": "CSA Apps"
+				},
+				{
+					"id": "75c813ed-6ba5-44f0-a8bd-aa6c0a265c85",
+					"value": "web"
+				},
+				{
+					"id": "d4917fb5-b073-47d2-8606-444f464dcb28",
+					"value": "VK tag"
+				}
+			],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "web Splunk Enterprise - CSA Lab",
+			"id": "1426832d-4bc6-46b2-b40b-c0b4385e9e8e"
+		},
+		{
+			"type": "Web",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "75c813ed-6ba5-44f0-a8bd-aa6c0a265c85",
+					"value": "web"
+				}
+			],
+			"identityProviderId": "3295e082-c09a-411c-b69d-99d35f68e2f5",
+			"name": "web VCO MSP (acme)",
+			"id": "9eceeeb8-7983-43ea-9795-95ef8088dd66"
+		},
+		{
+			"type": "Web",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "75c813ed-6ba5-44f0-a8bd-aa6c0a265c85",
+					"value": "web"
+				}
+			],
+			"identityProviderId": "3295e082-c09a-411c-b69d-99d35f68e2f5",
+			"name": "web VCO Operator (by DNS)",
+			"id": "daef61c7-0a4f-4eac-8d5f-d128d31b2929"
+		},
+		{
+			"type": "Web",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "75c813ed-6ba5-44f0-a8bd-aa6c0a265c85",
+					"value": "web"
+				}
+			],
+			"identityProviderId": "3295e082-c09a-411c-b69d-99d35f68e2f5",
+			"name": "web Wazuh- Axis",
+			"id": "7638cca2-865e-4346-bf76-caa4e20cad85"
+		},
+		{
+			"type": "Web",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "75c813ed-6ba5-44f0-a8bd-aa6c0a265c85",
+					"value": "web"
+				}
+			],
+			"identityProviderId": "5b4f87a4-359b-42bf-985e-b1abf401b005",
+			"name": "web Webmin - axis",
+			"id": "80247409-16bf-41cc-a02d-8dcd023aab57"
+		},
+		{
+			"type": "Web",
+			"enabled": true,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "75c813ed-6ba5-44f0-a8bd-aa6c0a265c85",
+					"value": "web"
+				},
+				{
+					"id": "b5250e6c-62ac-4091-b4ac-eb84e5d3fefd",
+					"value": "postureRequiredApp"
+				}
+			],
+			"identityProviderId": "3295e082-c09a-411c-b69d-99d35f68e2f5",
+			"name": "web Webmin - Okta",
+			"id": "73fd6b37-2734-4a1b-86b0-e568691892b8"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "81ccb40d-34fe-4653-9dd6-cef9b8365ef5",
+					"value": "Wildcard Applications"
+				},
+				{
+					"id": "d5eccfbd-9ac7-4f75-a847-6c2063cdb764",
+					"value": "Network Access"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [
+					"*.acme.local",
+					"*.gnomey.local"
+				],
+				"ipRangesOrCIDRs": [],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "Wildcard Application VPN - DNS",
+			"id": "8fc2b948-577d-41bf-8796-20d2a5d08901"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "d2031599-31d9-4f75-9753-20929d0cf6a1",
+			"tags": [
+				{
+					"id": "063554b6-c14e-4f8c-a2ff-fa4145363ab8",
+					"value": "DNS Lookup"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"1.1.1.1/32"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"53"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "Wildcard Application VPN - DNS Server Lookup IPSEC",
+			"id": "8de33d26-1864-4350-9df5-9d0e7637db50"
+		},
+		{
+			"type": "NetworkRange",
+			"enabled": false,
+			"connectorZoneId": "82025e12-a263-406e-95ca-451cadadc94a",
+			"tags": [
+				{
+					"id": "81ccb40d-34fe-4653-9dd6-cef9b8365ef5",
+					"value": "Wildcard Applications"
+				},
+				{
+					"id": "d5eccfbd-9ac7-4f75-a847-6c206s3cdb764",
+					"value": "Network Access"
+				}
+			],
+			"networkRangeApplicationData": {
+				"dnsSearches": [],
+				"ipRangesOrCIDRs": [
+					"172.16.0.0/12",
+					"10.0.0.0/8",
+					"192.168.0.0/16"
+				],
+				"excludedDnsSearches": [],
+				"portsAndProtocols": [
+					"1-65535"
+				],
+				"enableIcmp": true,
+				"serverInitiatedPorts": [],
+				"enforceResolvedDnsToIp": false
+			},
+			"name": "Wildcard Application VPN - Subnets",
+			"id": "d3a34217-962d-454f-8245-73b89788fd32"
+		}
+	]
+}

@@ -1,0 +1,905 @@
+[
+    {
+        "hasCustomHomePage": false,
+        "connectorZoneId": "7e85b115-bdca-49d4-a8ec-61df8a9894c1",
+        "connectorZone": {
+            "type": "Regular",
+            "isIpPoolEnabled": false,
+            "purpose": "Access",
+            "name": "Acme Zone 1",
+            "description": "",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "7e85b115-bdca-49d4-a8ec-61df8a9894c1"
+        },
+        "applicationGroups": [
+            {
+                "name": "Security Tools",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "7ca1c739-83f7-4e63-966d-5cffaf29539a"
+            }
+        ],
+        "applicationPort": 1,
+        "samlHeaderDescriptors": [],
+        "allowAnonymousAccess": false,
+        "isInternal": false,
+        "downstreamCertificateName": "",
+        "ignoreUpstreamCertificate": false,
+        "sshCreateNewUnixUser": false,
+        "sshIsolateUserNetwork": false,
+        "dbUserName": "",
+        "dbPassword": "CA0B93DD-5EDB-4348-B3AF-677F9216F899",
+        "dbAllowCredentialsOverride": true,
+        "dbDatabase": "",
+        "identityProviderId": "4f966246-01de-46a8-8061-b4ccb3ff458e",
+        "rdpUsername": "",
+        "rdpPassword": "55A0C32C-AC24-486E-A957-C727E7C7F6AF",
+        "rdpAllowCredentialsOverride": true,
+        "rdpActiveDirectoryDomain": "",
+        "rdpServerType": "Windows",
+        "rdpAllowCredentialsReuse": false,
+        "rdpNlaEnabled": true,
+        "rdpAppExecutables": [],
+        "rdpDestinationsPool": [],
+        "rdpApplicationsPool": [],
+        "rdpFullDesktopAccess": false,
+        "nativeDnsSearches": [
+            "splunk2.acme.local"
+        ],
+        "nativeIPRangesOrCIDRs": [],
+        "excludedNativeDnsSearches": [],
+        "excludedNativeIPRangesOrCIDRs": [],
+        "passthroughDnsServers": [],
+        "internalNetworkDnsResolution": false,
+        "enforceResolvedDnsToIP": false,
+        "useRealIP": false,
+        "nativeTypedPortRanges": [
+            {
+                "range": "80",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "8080",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "8000",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "443",
+                "protocol": "All"
+            }
+        ],
+        "replicateIp": false,
+        "replicatePort": false,
+        "isIcmpEnabled": true,
+        "serverInitiatedPorts": [],
+        "isServerInitiatedEnabled": false,
+        "isDNSApp": false,
+        "includeAllIps": false,
+        "shouldPreserveHost": false,
+        "shouldPreserveSni": false,
+        "shouldPreserveClientIP": false,
+        "identityProvider": {
+            "authenticationProtocol": "Saml",
+            "identityProviderType": "Internal",
+            "portalAddress": "axis-acmelabs.axisportal.io",
+            "name": "Axis IdP",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "4f966246-01de-46a8-8061-b4ccb3ff458e"
+        },
+        "secondaryIdps": [],
+        "secondaryIdpModelIds": [],
+        "modificationTime": "2024-06-25T20:43:54.591287Z",
+        "isAnyIdpApp": true,
+        "applicationType": "UserDefined",
+        "enabled": true,
+        "imageDataUri": "",
+        "applicationAddress": "0.0.0.0",
+        "applicationProtocol": "Native",
+        "applicationEntityType": "Legacy",
+        "applicationAccessLink": "https://axis-acmelabs.axisportal.io",
+        "isMonitored": false,
+        "isRdpPool": false,
+        "discoveryModeOn": false,
+        "connectorZones": [],
+        "name": "ZTNA - Acme Splunk",
+        "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+        "id": "d929a9e3-1a52-41a5-bab2-dcb3191de5a7"
+    },
+    {
+        "hasCustomHomePage": false,
+        "connectorZoneId": "7e85b115-bdca-49d4-a8ec-61df8a9894c1",
+        "connectorZone": {
+            "type": "Regular",
+            "isIpPoolEnabled": false,
+            "purpose": "Access",
+            "name": "Acme Zone 1",
+            "description": "",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "7e85b115-bdca-49d4-a8ec-61df8a9894c1"
+        },
+        "applicationGroups": [
+            {
+                "name": "VPN Replacement",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "106ba5ff-a6e0-4b32-aaba-5953e0b8e634"
+            },
+            {
+                "name": "VPN Wildcard Subnet1",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "8510083c-ef0c-4701-85c2-005881bd047f"
+            }
+        ],
+        "applicationPort": 1,
+        "samlHeaderDescriptors": [],
+        "allowAnonymousAccess": false,
+        "isInternal": false,
+        "downstreamCertificateName": "",
+        "ignoreUpstreamCertificate": false,
+        "sshCreateNewUnixUser": false,
+        "sshIsolateUserNetwork": false,
+        "dbUserName": "",
+        "dbPassword": "CA0B93DD-5EDB-4348-B3AF-677F9216F899",
+        "dbAllowCredentialsOverride": true,
+        "dbDatabase": "",
+        "identityProviderId": "4f966246-01de-46a8-8061-b4ccb3ff458e",
+        "rdpUsername": "",
+        "rdpPassword": "55A0C32C-AC24-486E-A957-C727E7C7F6AF",
+        "rdpAllowCredentialsOverride": true,
+        "rdpActiveDirectoryDomain": "",
+        "rdpServerType": "Windows",
+        "rdpAllowCredentialsReuse": false,
+        "rdpNlaEnabled": true,
+        "rdpAppExecutables": [],
+        "rdpDestinationsPool": [],
+        "rdpApplicationsPool": [],
+        "rdpFullDesktopAccess": false,
+        "nativeDnsSearches": [],
+        "nativeIPRangesOrCIDRs": [
+            "10.0.0.0/8",
+            "172.16.0.0/12",
+            "192.168.0.0/16"
+        ],
+        "excludedNativeDnsSearches": [],
+        "excludedNativeIPRangesOrCIDRs": [],
+        "passthroughDnsServers": [],
+        "internalNetworkDnsResolution": false,
+        "enforceResolvedDnsToIP": false,
+        "useRealIP": false,
+        "nativeTypedPortRanges": [
+            {
+                "range": "1-65535",
+                "protocol": "All"
+            }
+        ],
+        "replicateIp": false,
+        "replicatePort": false,
+        "isIcmpEnabled": true,
+        "serverInitiatedPorts": [],
+        "isServerInitiatedEnabled": false,
+        "isDNSApp": false,
+        "includeAllIps": false,
+        "shouldPreserveHost": false,
+        "shouldPreserveSni": false,
+        "shouldPreserveClientIP": false,
+        "identityProvider": {
+            "authenticationProtocol": "Saml",
+            "identityProviderType": "Internal",
+            "portalAddress": "axis-acmelabs.axisportal.io",
+            "name": "Axis IdP",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "4f966246-01de-46a8-8061-b4ccb3ff458e"
+        },
+        "secondaryIdps": [],
+        "secondaryIdpModelIds": [],
+        "modificationTime": "2024-02-27T06:16:05.767454Z",
+        "isAnyIdpApp": true,
+        "applicationType": "UserDefined",
+        "enabled": true,
+        "imageDataUri": "",
+        "applicationAddress": "0.0.0.0",
+        "applicationProtocol": "Native",
+        "applicationEntityType": "Legacy",
+        "applicationAccessLink": "https://axis-acmelabs.axisportal.io",
+        "isMonitored": false,
+        "isRdpPool": false,
+        "discoveryModeOn": false,
+        "connectorZones": [],
+        "name": "Wildcard VPN1 - Subnets",
+        "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+        "id": "d6fcc03e-eb2b-4504-b853-d2186b85188f"
+    },
+    {
+        "hasCustomHomePage": false,
+        "connectorZoneId": "7e85b115-bdca-49d4-a8ec-61df8a9894c1",
+        "connectorZone": {
+            "type": "Regular",
+            "isIpPoolEnabled": false,
+            "purpose": "Access",
+            "name": "Acme Zone 1",
+            "description": "",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "7e85b115-bdca-49d4-a8ec-61df8a9894c1"
+        },
+        "applicationGroups": [
+            {
+                "name": "VPN Wildcard Suffix1",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "009cb85a-b7d5-4c1f-b8c7-e686d63663ab"
+            },
+            {
+                "name": "VPN Replacement",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "106ba5ff-a6e0-4b32-aaba-5953e0b8e634"
+            }
+        ],
+        "applicationPort": 1,
+        "samlHeaderDescriptors": [],
+        "allowAnonymousAccess": false,
+        "isInternal": false,
+        "downstreamCertificateName": "",
+        "ignoreUpstreamCertificate": false,
+        "sshCreateNewUnixUser": false,
+        "sshIsolateUserNetwork": false,
+        "dbUserName": "",
+        "dbPassword": "CA0B93DD-5EDB-4348-B3AF-677F9216F899",
+        "dbAllowCredentialsOverride": true,
+        "dbDatabase": "",
+        "identityProviderId": "4f966246-01de-46a8-8061-b4ccb3ff458e",
+        "rdpUsername": "",
+        "rdpPassword": "55A0C32C-AC24-486E-A957-C727E7C7F6AF",
+        "rdpAllowCredentialsOverride": true,
+        "rdpActiveDirectoryDomain": "",
+        "rdpServerType": "Windows",
+        "rdpAllowCredentialsReuse": false,
+        "rdpNlaEnabled": true,
+        "rdpAppExecutables": [],
+        "rdpDestinationsPool": [],
+        "rdpApplicationsPool": [],
+        "rdpFullDesktopAccess": false,
+        "nativeDnsSearches": [
+            "*.acme.local"
+        ],
+        "nativeIPRangesOrCIDRs": [],
+        "excludedNativeDnsSearches": [],
+        "excludedNativeIPRangesOrCIDRs": [],
+        "passthroughDnsServers": [],
+        "internalNetworkDnsResolution": false,
+        "enforceResolvedDnsToIP": false,
+        "useRealIP": false,
+        "nativeTypedPortRanges": [
+            {
+                "range": "1-65535",
+                "protocol": "All"
+            }
+        ],
+        "replicateIp": false,
+        "replicatePort": false,
+        "isIcmpEnabled": true,
+        "serverInitiatedPorts": [],
+        "isServerInitiatedEnabled": false,
+        "isDNSApp": false,
+        "includeAllIps": false,
+        "shouldPreserveHost": false,
+        "shouldPreserveSni": false,
+        "shouldPreserveClientIP": false,
+        "identityProvider": {
+            "authenticationProtocol": "Saml",
+            "identityProviderType": "Internal",
+            "portalAddress": "axis-acmelabs.axisportal.io",
+            "name": "Axis IdP",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "4f966246-01de-46a8-8061-b4ccb3ff458e"
+        },
+        "secondaryIdps": [],
+        "secondaryIdpModelIds": [],
+        "modificationTime": "2024-06-25T20:44:03.170901Z",
+        "isAnyIdpApp": true,
+        "applicationType": "UserDefined",
+        "enabled": true,
+        "imageDataUri": "",
+        "applicationAddress": "0.0.0.0",
+        "applicationProtocol": "Native",
+        "applicationEntityType": "Legacy",
+        "applicationAccessLink": "https://axis-acmelabs.axisportal.io",
+        "isMonitored": false,
+        "isRdpPool": false,
+        "discoveryModeOn": false,
+        "connectorZones": [],
+        "name": "Wildcard VPN1 - Domain Suffixes",
+        "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+        "id": "8aff20df-bfd9-4333-9f8e-8d36908f5fe0"
+    },
+    {
+        "hasCustomHomePage": false,
+        "connectorZoneId": "7e85b115-bdca-49d4-a8ec-61df8a9894c1",
+        "connectorZone": {
+            "type": "Regular",
+            "isIpPoolEnabled": false,
+            "purpose": "Access",
+            "name": "Acme Zone 1",
+            "description": "",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "7e85b115-bdca-49d4-a8ec-61df8a9894c1"
+        },
+        "applicationGroups": [
+            {
+                "name": "VPN Replacement",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "106ba5ff-a6e0-4b32-aaba-5953e0b8e634"
+            },
+            {
+                "name": "VPN Wildcard Active Directory",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "effb5335-cf86-47ca-846e-363f0235ec74"
+            }
+        ],
+        "applicationPort": 1,
+        "samlHeaderDescriptors": [],
+        "allowAnonymousAccess": false,
+        "isInternal": false,
+        "ignoreUpstreamCertificate": false,
+        "sshCreateNewUnixUser": false,
+        "sshIsolateUserNetwork": false,
+        "dbAllowCredentialsOverride": false,
+        "identityProviderId": "4f966246-01de-46a8-8061-b4ccb3ff458e",
+        "rdpAllowCredentialsOverride": false,
+        "rdpServerType": "Windows",
+        "rdpAllowCredentialsReuse": false,
+        "rdpNlaEnabled": false,
+        "rdpFullDesktopAccess": false,
+        "activeDirectoryDomainName": "ad.gnomey.local",
+        "activeDirectoryDnsServers": [
+            "win-dc01a.gnomey.local",
+            "win-dc01a.gnomey.local"
+        ],
+        "nativeDnsSearches": [
+            "win-dfs01a.gnomey.local"
+        ],
+        "nativeIPRangesOrCIDRs": [],
+        "passthroughDnsServers": [],
+        "internalNetworkDnsResolution": false,
+        "enforceResolvedDnsToIP": false,
+        "useRealIP": false,
+        "nativeTypedPortRanges": [
+            {
+                "range": "53",
+                "protocol": "All"
+            },
+            {
+                "range": "88",
+                "protocol": "All"
+            },
+            {
+                "range": "464",
+                "protocol": "All"
+            },
+            {
+                "range": "389",
+                "protocol": "All"
+            },
+            {
+                "range": "3268",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "3269",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "135",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "139",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "445",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "636",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "138",
+                "protocol": "Udp"
+            },
+            {
+                "range": "1024-65535",
+                "protocol": "Tcp"
+            }
+        ],
+        "replicateIp": false,
+        "replicatePort": false,
+        "isIcmpEnabled": true,
+        "serverInitiatedPorts": [],
+        "isServerInitiatedEnabled": false,
+        "isDNSApp": false,
+        "includeAllIps": false,
+        "shouldPreserveHost": false,
+        "shouldPreserveSni": false,
+        "shouldPreserveClientIP": false,
+        "identityProvider": {
+            "authenticationProtocol": "Saml",
+            "identityProviderType": "Internal",
+            "portalAddress": "axis-acmelabs.axisportal.io",
+            "name": "Axis IdP",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "4f966246-01de-46a8-8061-b4ccb3ff458e"
+        },
+        "secondaryIdps": [],
+        "secondaryIdpModelIds": [],
+        "modificationTime": "2024-02-27T06:16:05.767466Z",
+        "isAnyIdpApp": true,
+        "applicationType": "UserDefined",
+        "enabled": true,
+        "imageDataUri": "",
+        "applicationAddress": "0.0.0.0",
+        "applicationProtocol": "Native",
+        "applicationEntityType": "ActiveDirectory",
+        "applicationAccessLink": "https://axis-acmelabs.axisportal.io",
+        "isMonitored": false,
+        "isRdpPool": false,
+        "discoveryModeOn": false,
+        "connectorZones": [],
+        "name": "Active Directory - pre2024",
+        "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+        "id": "825c7658-e405-41c4-8749-433f6b952934"
+    },
+    {
+        "hasCustomHomePage": false,
+        "connectorZoneId": "7e85b115-bdca-49d4-a8ec-61df8a9894c1",
+        "connectorZone": {
+            "type": "Regular",
+            "isIpPoolEnabled": false,
+            "purpose": "Access",
+            "name": "Acme Zone 1",
+            "description": "",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "7e85b115-bdca-49d4-a8ec-61df8a9894c1"
+        },
+        "applicationGroups": [
+            {
+                "name": "VPN Wildcard Active Directory",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "effb5335-cf86-47ca-846e-363f0235ec74"
+            }
+        ],
+        "applicationPort": 1,
+        "samlHeaderDescriptors": [],
+        "allowAnonymousAccess": false,
+        "isInternal": false,
+        "ignoreUpstreamCertificate": false,
+        "sshCreateNewUnixUser": false,
+        "sshIsolateUserNetwork": false,
+        "dbAllowCredentialsOverride": false,
+        "identityProviderId": "4f966246-01de-46a8-8061-b4ccb3ff458e",
+        "rdpAllowCredentialsOverride": false,
+        "rdpServerType": "Windows",
+        "rdpAllowCredentialsReuse": false,
+        "rdpNlaEnabled": false,
+        "rdpFullDesktopAccess": false,
+        "activeDirectoryDomainName": "acmelabs.local",
+        "activeDirectoryDnsServers": [
+            "win-dc01a.acme.local"
+        ],
+        "nativeDnsSearches": [],
+        "nativeIPRangesOrCIDRs": [],
+        "passthroughDnsServers": [],
+        "internalNetworkDnsResolution": false,
+        "enforceResolvedDnsToIP": false,
+        "useRealIP": false,
+        "nativeTypedPortRanges": [
+            {
+                "range": "53",
+                "protocol": "All"
+            },
+            {
+                "range": "88",
+                "protocol": "All"
+            },
+            {
+                "range": "464",
+                "protocol": "All"
+            },
+            {
+                "range": "389",
+                "protocol": "All"
+            },
+            {
+                "range": "3268",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "3269",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "135",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "139",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "445",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "636",
+                "protocol": "Tcp"
+            },
+            {
+                "range": "138",
+                "protocol": "Udp"
+            },
+            {
+                "range": "1024-65535",
+                "protocol": "Tcp"
+            }
+        ],
+        "replicateIp": false,
+        "replicatePort": false,
+        "isIcmpEnabled": true,
+        "serverInitiatedPorts": [],
+        "isServerInitiatedEnabled": false,
+        "isDNSApp": false,
+        "includeAllIps": false,
+        "shouldPreserveHost": false,
+        "shouldPreserveSni": false,
+        "shouldPreserveClientIP": false,
+        "identityProvider": {
+            "authenticationProtocol": "Saml",
+            "identityProviderType": "Internal",
+            "portalAddress": "axis-acmelabs.axisportal.io",
+            "name": "Axis IdP",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "4f966246-01de-46a8-8061-b4ccb3ff458e"
+        },
+        "secondaryIdps": [],
+        "secondaryIdpModelIds": [],
+        "modificationTime": "2024-06-25T20:45:10.597489Z",
+        "isAnyIdpApp": true,
+        "applicationType": "UserDefined",
+        "enabled": true,
+        "imageDataUri": "",
+        "applicationAddress": "0.0.0.0",
+        "applicationProtocol": "Native",
+        "applicationEntityType": "ActiveDirectory",
+        "applicationAccessLink": "https://axis-acmelabs.axisportal.io",
+        "isMonitored": false,
+        "isRdpPool": false,
+        "discoveryModeOn": false,
+        "connectorZones": [],
+        "name": "Active Directory",
+        "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+        "id": "10209c5f-e723-497b-8746-21bc937f09c1"
+    },
+    {
+        "hasCustomHomePage": false,
+        "connectorZoneId": "7e85b115-bdca-49d4-a8ec-61df8a9894c1",
+        "connectorZone": {
+            "type": "Regular",
+            "isIpPoolEnabled": false,
+            "purpose": "Access",
+            "name": "Acme Zone 1",
+            "description": "",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "7e85b115-bdca-49d4-a8ec-61df8a9894c1"
+        },
+        "applicationGroups": [
+            {
+                "name": "ZTNA Application",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "84698807-53c4-4c7b-b039-02331d98abbc"
+            }
+        ],
+        "applicationPort": 22,
+        "samlHeaderDescriptors": [],
+        "allowAnonymousAccess": false,
+        "isInternal": false,
+        "ignoreUpstreamCertificate": false,
+        "sshUser": "",
+        "sshCreateNewUnixUser": false,
+        "sshIsolateUserNetwork": false,
+        "sshAuthenticationMethod": "PortalPromptCredentials",
+        "dbAllowCredentialsOverride": false,
+        "identityProviderId": "e69fc1b6-4f86-4718-bf73-1ca3515c2451",
+        "rdpAllowCredentialsOverride": false,
+        "rdpServerType": "Windows",
+        "rdpAllowCredentialsReuse": false,
+        "rdpNlaEnabled": false,
+        "rdpFullDesktopAccess": false,
+        "internalNetworkDnsResolution": false,
+        "enforceResolvedDnsToIP": false,
+        "useRealIP": false,
+        "replicateIp": false,
+        "replicatePort": false,
+        "isIcmpEnabled": false,
+        "isServerInitiatedEnabled": false,
+        "isDNSApp": false,
+        "includeAllIps": false,
+        "shouldPreserveHost": false,
+        "shouldPreserveSni": false,
+        "shouldPreserveClientIP": false,
+        "identityProvider": {
+            "authenticationProtocol": "Saml",
+            "identityProviderType": "External",
+            "portalAddress": "okta-acmelabs.axisportal.io",
+            "name": "Okta IDP",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "e69fc1b6-4f86-4718-bf73-1ca3515c2451"
+        },
+        "secondaryIdps": [],
+        "secondaryIdpModelIds": [],
+        "modificationTime": "2024-06-25T20:46:26.49997Z",
+        "isAnyIdpApp": false,
+        "applicationType": "UserDefined",
+        "enabled": true,
+        "imageDataUri": "",
+        "applicationAddress": "splunk2.acme.local",
+        "applicationProtocol": "Ssh",
+        "applicationEntityType": "Ssh",
+        "applicationAccessLink": "https://okta-acmelabs.axisportal.io",
+        "isMonitored": false,
+        "isRdpPool": false,
+        "discoveryModeOn": false,
+        "connectorZones": [],
+        "name": "ZTNA - Agentless SSH _splunk",
+        "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+        "id": "07949880-f07c-4588-9506-38378ee8c9e0"
+    },
+    {
+        "hasCustomHomePage": false,
+        "connectorZoneId": "7e85b115-bdca-49d4-a8ec-61df8a9894c1",
+        "connectorZone": {
+            "type": "Regular",
+            "isIpPoolEnabled": false,
+            "purpose": "Access",
+            "name": "Acme Zone 1",
+            "description": "",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "7e85b115-bdca-49d4-a8ec-61df8a9894c1"
+        },
+        "applicationGroups": [
+            {
+                "name": "ZTNA Application",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "84698807-53c4-4c7b-b039-02331d98abbc"
+            }
+        ],
+        "applicationPort": 3389,
+        "samlHeaderDescriptors": [],
+        "allowAnonymousAccess": false,
+        "isInternal": false,
+        "downstreamCertificateName": "",
+        "ignoreUpstreamCertificate": true,
+        "sshCreateNewUnixUser": false,
+        "sshIsolateUserNetwork": false,
+        "dbUserName": "",
+        "dbPassword": "CA0B93DD-5EDB-4348-B3AF-677F9216F899",
+        "dbAllowCredentialsOverride": true,
+        "dbDatabase": "",
+        "identityProviderId": "e69fc1b6-4f86-4718-bf73-1ca3515c2451",
+        "rdpUsername": "",
+        "rdpPassword": "55A0C32C-AC24-486E-A957-C727E7C7F6AF",
+        "rdpAllowCredentialsOverride": true,
+        "rdpActiveDirectoryDomain": "",
+        "rdpServerType": "Windows",
+        "rdpAllowCredentialsReuse": false,
+        "rdpNlaEnabled": true,
+        "rdpAppExecutables": [],
+        "rdpDestinationsPool": [],
+        "rdpApplicationsPool": [],
+        "rdpFullDesktopAccess": false,
+        "nativeDnsSearches": [],
+        "nativeIPRangesOrCIDRs": [],
+        "excludedNativeDnsSearches": [],
+        "excludedNativeIPRangesOrCIDRs": [],
+        "passthroughDnsServers": [],
+        "internalNetworkDnsResolution": false,
+        "enforceResolvedDnsToIP": false,
+        "useRealIP": false,
+        "nativeTypedPortRanges": [],
+        "replicateIp": false,
+        "replicatePort": false,
+        "isIcmpEnabled": true,
+        "serverInitiatedPorts": [],
+        "isServerInitiatedEnabled": false,
+        "isDNSApp": false,
+        "includeAllIps": false,
+        "shouldPreserveHost": false,
+        "shouldPreserveSni": false,
+        "shouldPreserveClientIP": false,
+        "identityProvider": {
+            "authenticationProtocol": "Saml",
+            "identityProviderType": "External",
+            "portalAddress": "okta-acmelabs.axisportal.io",
+            "name": "Okta IDP",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "e69fc1b6-4f86-4718-bf73-1ca3515c2451"
+        },
+        "secondaryIdps": [],
+        "secondaryIdpModelIds": [],
+        "modificationTime": "2024-06-25T20:47:32.070938Z",
+        "isAnyIdpApp": false,
+        "applicationType": "UserDefined",
+        "enabled": true,
+        "imageDataUri": "",
+        "applicationAddress": "win-dc01a.acme.local",
+        "applicationProtocol": "Rdp",
+        "applicationEntityType": "Legacy",
+        "applicationAccessLink": "https://okta-acmelabs.axisportal.io",
+        "isMonitored": false,
+        "isRdpPool": false,
+        "discoveryModeOn": false,
+        "connectorZones": [],
+        "name": "ZTNA - Agentless RDP _DC01a",
+        "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+        "id": "28b68a0b-e2d1-42e1-becc-1e94028f6b4f"
+    },
+    {
+        "hasCustomHomePage": false,
+        "originalDomains": [
+            "ipconfig.io",
+            "*.ipconfig.io"
+        ],
+        "rewriteConfig": {
+            "headerLinks": {
+                "rewriteDomains": [
+                    {
+                        "domain": "ipconfig.io",
+                        "domainPort": 0,
+                        "isHttps": true,
+                        "includePath": ".*",
+                        "excludePath": "",
+                        "includeSubDomains": true,
+                        "includeBaseDomain": true,
+                        "usePublicConnectorZone": false
+                    }
+                ],
+                "enabled": true
+            },
+            "bodyLinks": {
+                "rewriteDomains": [
+                    {
+                        "domain": "ipconfig.io",
+                        "domainPort": 0,
+                        "isHttps": true,
+                        "includePath": ".*",
+                        "excludePath": "",
+                        "includeSubDomains": true,
+                        "includeBaseDomain": true,
+                        "usePublicConnectorZone": false
+                    }
+                ],
+                "enabled": true
+            },
+            "nonceQueryParam": {
+                "rewriteDomains": [
+                    {
+                        "domain": "ipconfig.io",
+                        "domainPort": 0,
+                        "isHttps": true,
+                        "includePath": ".*",
+                        "excludePath": "",
+                        "includeSubDomains": true,
+                        "includeBaseDomain": true,
+                        "usePublicConnectorZone": false
+                    }
+                ],
+                "enabled": true
+            },
+            "nonceDomainName": {
+                "rewriteDomains": [],
+                "enabled": false
+            },
+            "rewriteDomainsIngressSuffix": [],
+            "rewriteCustomBodyByString": [],
+            "addCredentialsToManifest": true,
+            "removeScriptIntegrity": true,
+            "useServiceWorker": false,
+            "serviceWorkerConfig": {
+                "verboseLogs": false,
+                "ajaxSupportEnabled": true,
+                "discoveryToolFlowEnabled": true,
+                "clientSidePrefixSupportEnabled": true
+            },
+            "forceRewriteForContentTypes": [],
+            "preserveHeadRequestContentLength": false,
+            "skipUrlDecode": false,
+            "shouldNotEncodeDefaultPort": true,
+            "shouldEncodeCspHtmlTag": true,
+            "customHeadersRewriteOnRequests": {},
+            "customHeadersRewriteOnResponses": {}
+        },
+        "hasCustomRewrite": false,
+        "connectorZoneId": "21762a14-f108-4de6-8182-053444820072",
+        "connectorZone": {
+            "type": "InternetZone",
+            "isIpPoolEnabled": false,
+            "purpose": "Access",
+            "name": "Public Connector Zone",
+            "description": "Dedicated zone for public internet",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "21762a14-f108-4de6-8182-053444820072"
+        },
+        "applicationGroups": [
+            {
+                "name": "ZTNA Application",
+                "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+                "id": "84698807-53c4-4c7b-b039-02331d98abbc"
+            }
+        ],
+        "applicationPort": 443,
+        "userInputDomains": [],
+        "userInputDomainsV2": [],
+        "samlHeaderDescriptors": [],
+        "allowAnonymousAccess": false,
+        "allowAnonymousAccessSources": [],
+        "isInternal": false,
+        "ignoreUpstreamCertificate": false,
+        "sshCreateNewUnixUser": false,
+        "sshIsolateUserNetwork": false,
+        "dbAllowCredentialsOverride": false,
+        "identityProviderId": "e69fc1b6-4f86-4718-bf73-1ca3515c2451",
+        "rdpAllowCredentialsOverride": false,
+        "rdpServerType": "Windows",
+        "rdpAllowCredentialsReuse": false,
+        "rdpNlaEnabled": false,
+        "rdpFullDesktopAccess": false,
+        "internalNetworkDnsResolution": false,
+        "enforceResolvedDnsToIP": false,
+        "useRealIP": false,
+        "replicateIp": false,
+        "replicatePort": false,
+        "isIcmpEnabled": false,
+        "isServerInitiatedEnabled": false,
+        "isDNSApp": false,
+        "includeAllIps": false,
+        "shouldPreserveHost": false,
+        "shouldPreserveSni": false,
+        "shouldPreserveClientIP": true,
+        "identityProvider": {
+            "authenticationProtocol": "Saml",
+            "identityProviderType": "External",
+            "portalAddress": "okta-acmelabs.axisportal.io",
+            "name": "Okta IDP",
+            "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+            "id": "e69fc1b6-4f86-4718-bf73-1ca3515c2451"
+        },
+        "secondaryIdps": [],
+        "secondaryIdpModelIds": [],
+        "modificationTime": "2024-06-25T20:46:43.2464Z",
+        "isAnyIdpApp": false,
+        "applicationType": "UserDefined",
+        "homePage": "my-ip-info-acmelabs.axisapps.io",
+        "enabled": true,
+        "imageDataUri": "",
+        "applicationAddress": "ipconfig.io",
+        "applicationProtocol": "Https",
+        "applicationEntityType": "Web",
+        "applicationAccessLink": "https://my-ip-info-acmelabs.axisapps.io",
+        "isMonitored": false,
+        "isRdpPool": false,
+        "discoveryModeOn": false,
+        "latestDiscoverySessionIdLink": "",
+        "latestDiscoverySessionData": {
+            "discoveredDomains": [],
+            "accessedBy": []
+        },
+        "latestDiscoverySessionStatus": {
+            "statusType": "NotAccessed",
+            "users": [],
+            "domainsFound": 0
+        },
+        "connectorZones": [],
+        "name": "ZTNA - Agentless Web _My IP Info",
+        "tenantId": "acbbd213-6fc9-485a-b0ac-a1410b2eefa0",
+        "id": "4921b461-ea82-472b-a64d-c70c29804476"
+    }
+]

@@ -1,0 +1,9 @@
+Name,IP Ranges,DNS Searches,ICMP enabled (Optional),Allowed Ports & Protocols,Connector Zone,Tags (Optional)
+ZTNA - Acme Splunk,,splunk2.acme.local,true,80:tcp;8080:tcp;8000:tcp;443,Acme Zone 1,
+Wildcard VPN1 - Subnets,10.0.0.0/8;172.16.0.0/12;192.168.0.0/16,,true,1-65535,Acme Zone 1,
+Wildcard VPN1 - Domain Suffixes,,*.acme.local,true,1-65535,Acme Zone 1,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
