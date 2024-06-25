@@ -1,6 +1,6 @@
 # axis_bulkImporter
-Convert UI json objects to Bulk-Import templates
-Currently only supports network ranges.
+Convert UI json objects to Bulk-Import templates<br>
+_Currently only supports network ranges._
 
 ## Use Cases
 Example - Migrating applications from one tenant to another
