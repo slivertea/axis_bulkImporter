@@ -51,7 +51,14 @@ def setZone(arg1):
 
 
 def setTags(arg1):
-    return None
+    if "applicationGroups" in arg1.keys():
+        taglist = []
+        for tag in arg1["applicationGroups"]:
+            taglist.append(tag["name"])
+        tags = ";".join(taglist)
+        return tags
+    else:
+        return None
 
 
 def parse(argv):
