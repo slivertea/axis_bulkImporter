@@ -13,6 +13,12 @@ Source data by default is the Applications json data file taken from the UI via 
 into the correct schema necessary for bulk import.
 
 
+## Limitations
+1. Currently only supports network ranges
+2. Any RnD Customizations are not supported.
+3. Web App and custom redirect, nonce support, or custom header pass through are not supported in this script.
+
+
 
 ## Requirements:
 * Source data in json format.  From UI
